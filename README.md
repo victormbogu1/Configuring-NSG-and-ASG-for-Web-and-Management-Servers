@@ -16,7 +16,7 @@ The first step for this task was to log into my Azure account. Then, I created a
 [![Screenshot-2024-07-18-133227.png](https://i.postimg.cc/brxVQWhv/Screenshot-2024-07-18-133227.png)](https://postimg.cc/K3Y5b94X)
 
 
-Next, I created two Application Security Groups (ASGs): one for the web servers and another for the management servers. The ASG for the web servers includes all VMs functioning as web servers, allowing for the application of network security rules specific to web traffic, such as permitting HTTP/HTTPS traffic from the internet. The ASG for the management servers includes all VMs functioning as management servers, enabling the application of network security rules specific to management traffic, such as allowing RDP access from specific IPs (e.g., an admin’s PC).
+Next, I created two Application Security Groups (ASGs): one for the web servers and another for the management servers. The ASGs which is designed to simplify network security management for virtual machines (VMs) by grouping them based on their application requirements. The ASG for the web servers includes all VMs functioning as web servers, allowing for the application of network security rules specific to web traffic, such as permitting HTTP/HTTPS traffic from the internet. The ASG for the management servers includes all VMs functioning as management servers, enabling the application of network security rules specific to management traffic, such as allowing RDP access from specific IPs, for examole an administrator computer
 
 [![Screenshot-2024-07-18-133609.png](https://i.postimg.cc/yN2L2s6d/Screenshot-2024-07-18-133609.png)](https://postimg.cc/SX7LM0MF)
 
